@@ -1,0 +1,16 @@
+=== RUN   TestIsIsogram
+--- PASS: TestIsIsogram (0.00s)
+	isogram_test.go:11: PASS: Word ""
+	isogram_test.go:11: PASS: Word "isogram"
+	isogram_test.go:11: PASS: Word "eleven"
+	isogram_test.go:11: PASS: Word "subdermatoglyphic"
+	isogram_test.go:11: PASS: Word "Alphabet"
+	isogram_test.go:11: PASS: Word "thumbscrew-japingly"
+	isogram_test.go:11: PASS: Word "six-year-old"
+	isogram_test.go:11: PASS: Word "Emily Jung Schwartzkopf"
+	isogram_test.go:11: PASS: Word "accentor"
+goos: windows
+goarch: amd64
+BenchmarkIsIsogram-8   	  200000	      5837 ns/op	    1192 B/op	      16 allocs/op
+PASS
+ok  	_/C_/Users/Ricardo/Projects/exercism/go/isogram	1.266s

@@ -1,0 +1,5 @@
+goos: windows
+goarch: amd64
+BenchmarkScore-8   	 2000000	       831 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	_/C_/Users/Ricardo/Projects/exercism/go/scrabble-score	2.556s
